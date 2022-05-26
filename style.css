@@ -1,1 +1,54 @@
-/* dsfsdfs */
+body {
+	background: #0fcfcf;
+	color: rgb(241, 245, 245);
+}
+
+.container {
+	background: #046169;
+	;
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 2px 3px 3px rgb(7, 7, 7);
+
+}
+
+.menyu {
+	display: inline-block;
+	border: 2px rgb(80, 58, 42);
+	text-decoration: none;
+	margin-top: 20px;
+
+}
+
+.menyu li {
+	display: inline-block;
+	margin-right: 15px;
+	text-decoration: none;
+	justify-content: center;
+}
+
+.logo {
+	margin-right: 450px;
+	justify-content: center;
+	align-content: center;
+}
+
+.logo h1 {
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	justify-content: center;
+	text-decoration: none;
+	color: rgb(237, 232, 232);
+	
+}
+
+#slider {
+
+	width: 100%;
+	height: 1300px;
+	border: 1px solid red;
+	background-image: url(./images/s.jpeg);
+}
